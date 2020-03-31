@@ -29,5 +29,7 @@ namespace Tutorial.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Tutorial.Models.Person> People { get; set; }
     }
 }
